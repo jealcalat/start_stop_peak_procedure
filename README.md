@@ -54,3 +54,31 @@ print(bps)
 # start stop spread       r2  mid        r1        r3
 # 1  44.2 89.4   45.2 2.212389 66.8 0.0678733 0.3311258
 ```
+The first two columns are the principal output. Spread is just (stop - start), and mid (middle, or peak time) is just (start + stop) / 2; r1, r2 and r3 the response times in the low state before start, the high rate state between the start and the stop, and the low state after stop.
+
+The next plot shows the distributions of the response times in the peak trial
+
+<div align="center">
+ <img src="https://github.com/jealcalat/start_stop_peak_procedure/blob/main/peak_trial_with_start_stop.svg" width="350">
+</div>
+
+The following code can reproduce the figure
+
+```{r}
+par(mgp = c(2.3, 0.2, 0),
+    mar = c(4, 4.5, 1, 1))
+plot(
+  density(
+    r_times,
+    adjust = 0.8,
+    from = 0, 
+    to = 180
+  ),
+  main = "",
+  ylab = expression(italic(p(t[R]))),
+  xlab = "time in peak trial"
+)
+abline(v = 60, lty = 2)
+bps <- low1_s1_high_s2_low2(r_times, 180)
+abline(v = c(bps$start, bps$stop), col = 2, lty = 2, lwd = 2)
+```
