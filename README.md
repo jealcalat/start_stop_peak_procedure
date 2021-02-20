@@ -12,7 +12,7 @@ sigma<sub>&i=1;</sub>|r-r1|
 
 <div align="center">
   
- ![\Large A=\sum_{i=1}^3 |r - r_i|](https://latex.codecogs.com/svg.latex?\Large&space;A=\sum_{i=1}^3 |r - r_i|) 
+ ![\Large A=\sum_{i=1}^3 \mid r - r_i\mid](https://latex.codecogs.com/svg.latex?\Large&space;A=\sum_{i=1}^3 \mid r - r_i\mid) 
   
  <img src="https://github.com/jealcalat/start_stop_peak_procedure/blob/main/lhl_diagramm-1.png" width="300">
 </div>
