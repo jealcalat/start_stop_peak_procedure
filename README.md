@@ -56,10 +56,10 @@ print(bps)
 ```
 The first two columns are the principal output. Spread is just (stop - start), and mid (middle, or peak time) is just (start + stop) / 2; r1, r2 and r3 the response times in the low state before start, the high rate state between the start and the stop, and the low state after stop.
 
-The next plot shows the distributions of the response times in the peak trial
+The next plot shows the distributions of the response times in the peak trial. The dashed line in the center is T=60, and the red lines are the start and stop times identified by ```low1_s1_high_s2_low2```.
 
 <div align="center">
- <img src="https://github.com/jealcalat/start_stop_peak_procedure/blob/main/peak_trial_with_start_stop.svg" width="350">
+ <img src="https://github.com/jealcalat/start_stop_peak_procedure/blob/main/peak_trial_with_start_stop.svg" width="450">
 </div>
 
 The following code can reproduce the figure
