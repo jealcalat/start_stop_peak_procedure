@@ -8,7 +8,7 @@ Visual representation of this area to be maximized by an exhaustive algorithm.Be
 
 <div align="center">
   
- ![\Large \underset{r, d}{\mathrm{arg max}}~\sum_{i=1}^3 d_i|r-r_i|~\forall{i}\in{1,2,3}](https://latex.codecogs.com/svg.latex?\normalsize&space;\underset{r, d}{\mathrm{arg max}}~\sum_{i=1}^3 d_i|r-r_i|~\forall{i}\in{1,2,3}) 
+ ![\Large \underset{r,d}{\mathrm{arg max}}~\sum_{i=1}^3d_i|r-r_i|~\forall{i}\in{1,2,3}](https://latex.codecogs.com/svg.latex?\normalsize&space;\underset{r,d}{\mathrm{arg max}}~\sum_{i=1}^3d_i|r-r_i|~\forall{i}\in{1,2,3}) 
   
  <img src="https://github.com/jealcalat/start_stop_peak_procedure/blob/main/lhl_diagramm-1.png" width="350">
 </div>
