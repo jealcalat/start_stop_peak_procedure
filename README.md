@@ -8,6 +8,7 @@ Visual representation of this area to be maximized by an exhaustive algorithm.Be
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
+sigma<sub>&i=1;</sub>|r-r1|
 
 <div align="center">
 <img src="https://github.com/jealcalat/start_stop_peak_procedure/blob/main/lhl_diagramm-1.png" width="300">
