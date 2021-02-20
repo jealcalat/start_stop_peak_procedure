@@ -13,7 +13,7 @@ Visual representation of this area to be maximized by an exhaustive algorithm.Be
 
 <div align="center">
   
- ![\Large A=\sum_{i=1}^3|r-r_i|](https://latex.codecogs.com/svg.latex?\Large&space;A=\sum_{i=1}^3|r-r_i|) 
+ ![\Large A=\sum_{i=1}^3d_i\times|r-r_i|](https://latex.codecogs.com/svg.latex?\Large&space;A=\sum_{i=1}^3d_i\times|r-r_i|) 
   
  <img src="https://github.com/jealcalat/start_stop_peak_procedure/blob/main/lhl_diagramm-1.png" width="300">
 </div>
