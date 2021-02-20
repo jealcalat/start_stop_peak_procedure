@@ -13,7 +13,7 @@ Visual representation of this area to be maximized by an exhaustive algorithm.Be
 and the absolute difference 
 
 <div align="center">
- ![\Large |r−ri|.](https://latex.codecogs.com/svg.latex?\Large&space;|r−r_i|) 
+ ![\Large |r−r_i|.](https://latex.codecogs.com/svg.latex?\Large&space;|r−r_i|) 
 </div>
 
 are technically areas, we must find the start and stop (or the lower and upper limits of d2) such that the sum of the three areas is maximized.
