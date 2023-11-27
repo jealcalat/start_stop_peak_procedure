@@ -13,7 +13,7 @@ This algorithm maximize the sum of three areas shown in the next figure by an ex
 </div>
 
 $$
-s_1^*, s_2^* = \underset{0 \leq s_1 < s_2 \leq T}{\mathrm{argmax}} \sum_{i=1}^3 d_i \cdot |r - r_i|,\quad \text{for } i \in \{1, 2, 3\}
+s_1^\*, s_2^\* = \underset{0 \leq s_1 < s_2 \leq T}{\mathrm{argmax}} \sum_{i=1}^3 d_i \cdot |r - r_i|,\quad \text{for } i \in \{1, 2, 3\}
 $$
 
 The algorithm have two arguments: 
